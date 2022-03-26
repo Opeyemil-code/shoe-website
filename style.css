@@ -274,7 +274,7 @@ footer{
 	}
 	.coupon-price{
 		position: absolute;
-top:20em ;
+top:18em ;
 margin-top: 171.5em;
 justify-content: end;
 	
@@ -294,7 +294,7 @@ justify-content: end;
 		
 
 	margin-top: 87em;
-	margin-left: 28em;
+	margin-left: 20em;
 	background: #880011;
 	padding: 5px 10px;
 	font-size: 0.8em;
