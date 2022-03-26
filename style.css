@@ -64,7 +64,12 @@ select {
 	  background: #880011;
 	  color: white;
 	  border-radius: 3em;
+	  display: block;
   }
+
+  
+
+ 
 
   option{
 	  color: white;
@@ -229,6 +234,87 @@ color: white;
 
 .price{
 	font-size: bolder;
+}
+
+footer{
+	text-align: center;
+	margin: 4em;
+	font-size: 0.9em;
+}
+
+.opeyemil{
+	color: #880011;
+	text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+	.content {
+		text-align: center;
+	}
+    .big-container{
+		display: flex;
+		flex-direction: column;
+	}
+	.coupon-pric{
+		position: absolute;
+	top: 22em;
+	left: 33em;
+	background: #880011;
+	padding: 5px 10px;
+	font-size: 0.8em;
+	border-radius: 4px;
+	  border-top-right-radius: 4px;
+	  border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	display: flex;
+	flex-direction: row-reverse;
+	color: white;
+	}
+	.coupon-price{
+		position: absolute;
+	top: em;
+	left: em;
+	margin-top: 176em;
+	background: #880011;
+	padding: 5px 10px;
+	font-size: 0.8em;
+	border-radius: 4px;
+	  border-top-right-radius: 4px;
+	  border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	display: flex;
+	flex-direction:row-reverse ;
+	color: white;
+	}
+	.coupon-pri{
+		position: absolute;
+	top: 20em;
+	margin-top: 88em;
+	margin-left: 38em;
+	background: #880011;
+	padding: 5px 10px;
+	font-size: 0.8em;
+	border-radius: 4px;
+	  border-top-right-radius: 4px;
+	  border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	display: flex;
+	flex-direction: row-reverse;
+	color: white;
+	}
+
+
+}
+@media (min-width: 1000px) {
+	.item-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2em;
+	}
 }
 
 
