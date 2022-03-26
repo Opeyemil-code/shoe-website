@@ -257,11 +257,11 @@ footer{
 		flex-direction: column;
 	}
 	.coupon-pric{
-		position: absolute;
-	top: 22em;
-	left: 33em;
+		left: 4em;
+	margin-left: 16em;
+	margin-top: 1em;	
 	background: #880011;
-	padding: 5px 10px;
+	padding: ;
 	font-size: 0.8em;
 	border-radius: 4px;
 	  border-top-right-radius: 4px;
@@ -274,9 +274,10 @@ footer{
 	}
 	.coupon-price{
 		position: absolute;
-	top: em;
-	left: em;
-	margin-top: 176em;
+top:20em ;
+right: 2em;
+margin-top: 167.5em;
+	
 	background: #880011;
 	padding: 5px 10px;
 	font-size: 0.8em;
@@ -290,10 +291,10 @@ footer{
 	color: white;
 	}
 	.coupon-pri{
-		position: absolute;
-	top: 20em;
-	margin-top: 88em;
-	margin-left: 38em;
+		
+
+	margin-top: 85em;
+	margin-left: 25em;
 	background: #880011;
 	padding: 5px 10px;
 	font-size: 0.8em;
@@ -305,6 +306,7 @@ footer{
 	display: flex;
 	flex-direction: row-reverse;
 	color: white;
+
 	}
 
 
